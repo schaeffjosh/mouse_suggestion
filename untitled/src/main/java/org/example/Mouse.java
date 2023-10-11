@@ -46,6 +46,7 @@ public class Mouse {
     public int getPollingRate() {return pollingRate;}
     public void setPollingRate(int pollingRate) {this.pollingRate = pollingRate;}
 
+
     public Mouse(){};
 
     public Mouse(String brand, String model, double length, double width, double height, int weight, String symmetrical, String wireless, String sensor, int dpi, int pollingRate){
