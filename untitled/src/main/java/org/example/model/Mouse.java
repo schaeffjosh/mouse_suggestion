@@ -1,17 +1,22 @@
-package org.example;
+package org.example.model;
 
 public class Mouse {
+    private int id;
     private String brand;
     private String model;
     private double length;
     private double width;
     private double height;
     private int weight;
-    private String shape;
-    private String connectivity;
+    private boolean shape;
+    private boolean connectivity;
     private String sensor;
     private int dpi;
     private int pollingRate;
+
+    public int getId() {return id;}
+
+    public void setId(int id) {this.id = id;}
 
     public String getBrand() {return brand;}
     public void setBrand(String brand) {this.brand = brand;}
@@ -31,11 +36,11 @@ public class Mouse {
     public double getWeight() {return weight;}
     public void setWeight(int weight) {this.weight = weight;}
 
-    public String isSymmetrical() {return shape;}
-    public void setShape(String shape) {this.shape = shape;}
+    public boolean isSymmetrical() {return shape;}
+    public void setShape(boolean shape) {this.shape = shape;}
 
-    public String isWireless() {return connectivity;}
-    public void setConnectivity(String connectivity) {this.connectivity = connectivity;}
+    public boolean isWireless() {return connectivity;}
+    public void setConnectivity(boolean connectivity) {this.connectivity = connectivity;}
 
     public String getSensor() {return sensor;}
     public void setSensor(String sensor) {this.sensor = sensor;}
@@ -49,7 +54,7 @@ public class Mouse {
 
     public Mouse(){};
 
-    public Mouse(String brand, String model, double length, double width, double height, int weight, String symmetrical, String wireless, String sensor, int dpi, int pollingRate){
+    public Mouse(String brand, String model, double length, double width, double height, int weight, String shape, String wireless, String sensor, int dpi, int pollingRate){
         this.brand = brand;
         this.model = model;
         this.length = length;
@@ -59,12 +64,13 @@ public class Mouse {
         this.sensor = sensor;
         this.dpi = dpi;
         this.pollingRate = pollingRate;
-        this.shape = symmetrical;
-        this.connectivity = wireless;
+        this.shape = shape.equalsIgnoreCase("symmetrical");
+        this.connectivity = wireless.equals("wireless");
     }
 
     public String toString(){
-        return String.format("Brand: %s\nModel: %s\nDimensions: L: %.2f W: %.2f H: %.2f\nWeight: %d\nSensor: %s\nMax DPI: %d\nMax Polling Rate: %d\nShape: %s\nConnectivity: %s",
-                this.brand, this.model, this.length, this.width, this.height, this.weight, this.sensor, this.dpi, this.pollingRate, this.shape, this.connectivity);
+        return String.format("('%s','%s',%.2f,%.2f,%.2f,%d,%b,%b,'%s',%d,%d)",
+                this.brand, this.model, this.length, this.width, this.height, this.weight, this.shape, this.connectivity, this.sensor, this.pollingRate, this.dpi);
     }
 }
+//"Brand: %s\nModel: %s\nDimensions: L: %.2f W: %.2f H: %.2f\nWeight: %d\nSensor: %s\nMax DPI: %d\nMax Polling Rate: %d\nShape: %s\nConnectivity: %s"

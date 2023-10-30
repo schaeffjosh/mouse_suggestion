@@ -1,6 +1,7 @@
 A4Tech,Bloody V7,125,80,39,155,ergonomic,wired,AVAGO A3305,3200,1000
 AJAZZ,AJ139 Pro,125,63.3,38,59,symmetrical,wireless,PAW3395,26000,1000
 AJAZZ,AJ199,118,61.6,38.6,60,symmetrical,wireless,PAW3395,26000,1000
+ARYE,FCC-1,115.63,59.94,33.94,0,symmetrical,wireless,PAW3395,26000,4000
 ASUS,ROG Chakram,132.7,76.6,42.8,122,ergonomic,wireless,PAW3335,16000,1000
 ASUS,ROG Chakram Core,132.7,76.6,42.8,97,ergonomic,wired,PAW3335,16000,1000
 ASUS,ROG Chakram X,132.7,76.6,42.8,127,ergonomic,wireless,ROG AimPoint,36000,1000
@@ -23,13 +24,14 @@ ASUS,ROG Strix Impact II,120,62,38.6,79,symmetrical,wired,PAW3327,6200,1000
 ASUS,ROG Strix Impact II Wireless,120,62,38.6,93,symmetrical,wireless,PAW3335,16000,1000
 ASUS,TUF M4 Air,126,63.5,39.6,47,symmetrical,wired,PAW3335,16000,1000
 ASUS,TUF M4 Wireless,126,63.5,39.6,86,symmetrical,wireless,PAW3311,12000,1000
-Apple,Magic Mouse 2,113.5,57.1,21.6,99,symmetrical,wireless,N/A,1600,125
+Acer,Cestus 330,124,64.3,41,0,symmetrical,wired,Pixart 3335,16000,1000
+Apple,Magic Mouse 2,113.5,57.1,21.6,99,symmetrical,wireless,null,1600,125
 Aqirys,TGA Alpha,125,63,39.8,65,symmetrical,wireless,PAW3370,19000,1000
 Asus,Strix Impact III,126,62,39,59,symmetrical,wired,PMW3311,12000,1000
 Atompalm,Hydrogen,123.8,64.5,39.5,48,ergonomic,wired,PMW3360,12000,8000
 Atompalm,Hydrogen 2,123.8,64.5,39.5,48,ergonomic,wired,PMW3360,12000,8000
 Attack Shark,X3,118.5,61,39.7,49,symmetrical,wireless,PAW3395,26000,1000
-Brando,USB Giant Mouse,175,105,55,175,symmetrical,wired,N/A,3200,125
+Brando,USB Giant Mouse,175,105,55,175,symmetrical,wired,null,3200,125
 Cooler Master,CM110,116.6,62.6,38.3,92,symmetrical,wired,A3050,6000,1000
 Cooler Master,CM310,127,71.5,39.5,100,symmetrical,wired,A3325,10000,1000
 Cooler Master,MM310,125.5,71,40.5,50,symmetrical,wired,PAW3327,12000,1000
@@ -51,6 +53,7 @@ Corsair,M65 RGB Elite,116,78,39,107,ergonomic,wired,PMW3391,18000,1000
 Corsair,M65 RGB Pro,118,77,39,115,ergonomic,wired,PMW3360,12000,1000
 Corsair,M65 RGB Ultra,116,78,39,97,ergonomic,wired,MARKSMAN 26K,26000,8000
 Corsair,M65 RGB Ultra Wireless,116,78,39,110,ergonomic,wireless,MARKSMAN 26K,26000,2000
+Corsair,M75 AIR,128,65,41.6,60,symmetrical,wireless,CORSAIR MARKSMAN,26000,2000
 Corsair,Nightsabre Wireless,129.4,63,40.4,99,symmetrical,wireless,MARKSMAN 26K,26000,2000
 Corsair,Scimitar Pro,119.5,77,42.5,147,ergonomic,wired,PMW3367,16000,1000
 CyroMods,Fractal Wireless,116,61,36,64,symmetrical,wireless,HERO 12K,12000,1000
@@ -125,6 +128,8 @@ Gamesense,META Wired,119,59,38.5,65,symmetrical,wired,PMW3360,12000,1000
 Gamesense,MVP Wired,123,66,40,65,symmetrical,wired,PMW3389,19000,1000
 Gamesense,MVP Wireless,123,66,40,75,symmetrical,wireless,PAW3370,19000,1000
 Glorious,Model D,128,67,42,69,ergonomic,wired,PMW3360,12000,1000
+Glorious,Model D 2 Pro 1KHz,128,67,42,60,ergonomic,wireless,BAMF 2.0 26K,26000,1000
+Glorious,Model D 2 Pro 4K/8KHz,128,67,42,62,ergonomic,wireless,BAMF 2.0 26K,26000,8000
 Glorious,Model D Pro,128,67,42,58,ergonomic,wireless,BAMF,19000,1000
 Glorious,Model D Wireless,128,67,42,69,ergonomic,wireless,BAMF,19000,1000
 Glorious,Model D-,120,66,40,61,ergonomic,wired,PMW3360,12000,1000
@@ -132,6 +137,8 @@ Glorious,Model D- Wireless,120,66,40,67,ergonomic,wireless,BAMF,19000,1000
 Glorious,Model I,128,74,42,69,ergonomic,wired,BAMF,19000,1000
 Glorious,Model I 2 Wireless,129,72,42,75,ergonomic,wireless,BAMF 2.0,26000,1000
 Glorious,Model O,128,66,38,67,symmetrical,wired,PMW3360,12000,1000
+Glorious,Model O 2 Pro 1KHz,128,66,38,57,symmetrical,wireless,BAMF 2.0 26K,26000,1000
+Glorious,Model O 2 Pro 4K/8KHz,128,66,38,59,symmetrical,wireless,BAMF 2.0 26K,26000,8000
 Glorious,Model O 2 Wired,126,66,38,59,symmetrical,wired,BAMF 2.0,26000,1000
 Glorious,Model O 2 Wireless,126,66,38,68,symmetrical,wireless,BAMF 2.0,26000,1000
 Glorious,Model O Pro,128,66,38,55,symmetrical,wireless,BAMF,19000,1000
@@ -140,6 +147,7 @@ Glorious,Model O-,120,63,36,58,symmetrical,wired,PMW3360,12000,1000
 Glorious,Model O- Wireless,120,63,36,65,symmetrical,wireless,BAMF,19000,1000
 Glorious,Series One Pro,118.5,62,38,50,symmetrical,wireless,BAMF,19000,1000
 HK Gaming,Sirius M,121.7,61.7,37.8,54,symmetrical,wired,PMW3360,12000,1000
+HP,USB,120,61,40,0,symmetrical,wired,null,800,125
 HyperX,Pulsefire Core,119.3,63.9,41.3,87,symmetrical,wired,PAW3327,6200,1000
 HyperX,Pulsefire Dart,124.8,73.9,43.6,110,ergonomic,wireless,PMW3389,16000,1000
 HyperX,Pulsefire FPS Pro,127.6,71.1,41.9,95,ergonomic,wired,PMW3389,16000,1000
@@ -193,16 +201,18 @@ Logitech,G502 Lightspeed,132,75,40,114,ergonomic,wireless,HERO 25K,25600,1000
 Logitech,G502 X,131.4,79.2,41.1,89,ergonomic,wired,HERO 25K,25600,1000
 Logitech,G502 X Lightspeed,131.4,79.2,41.1,100,ergonomic,wireless,HERO 25K,25600,1000
 Logitech,G502 X Plus,131.4,79.2,41.1,106,ergonomic,wireless,HERO 25K,25600,1000
+Logitech,G600,118,75,41,133,ergonomic,wired,Avago S9808,8200,1000
 Logitech,G603 Lightspeed,124,68,43,89,ergonomic,wireless,HERO 12K,12000,1000
 Logitech,G604 Lightspeed,130,80,45,135,ergonomic,wireless,HERO 25K,25600,1000
 Logitech,G703 Lightspeed,124,68,43,107,ergonomic,wireless,HERO 25K,25600,1000
 Logitech,G903 Lightspeed,130,67,40,110,symmetrical,wireless,HERO 25K,25600,1000
-Logitech,M100,113,62,38,90,symmetrical,wired,N/A,1000,125
-Logitech,M185,99,60,39,74,symmetrical,wireless,N/A,1000,125
+Logitech,G9x,115,82,38,153,ergonomic,wired,Laser Engine,5700,1000
+Logitech,M100,113,62,38,90,symmetrical,wired,null,1000,125
+Logitech,M185,99,60,39,74,symmetrical,wireless,null,1000,125
 Logitech,M187,81.9,49.4,31.8,52,symmetrical,wireless,VB010411,1000,125
 Logitech,M238,95,55,38,84,symmetrical,wireless,VB010411,1000,125
 Logitech,M280,105.4,67.9,38.4,91,ergonomic,wireless,1855,1000,130
-Logitech,M510,120,65,41,129,symmetrical,wireless,N/A,1000,125
+Logitech,M510,120,65,41,129,symmetrical,wireless,null,1000,125
 Logitech,MX Anywhere,100.4,65,34.4,99,symmetrical,wireless,Darkfield,1000,125
 Logitech,MX Master,126,85.7,48.4,145,ergonomic,wireless,Darkfield,1000,125
 Logitech,MX518,131,73,43,106,ergonomic,wired,A3080(E),1600,125
@@ -211,15 +221,18 @@ Mancer,Tauri,125,68.5,42.7,60,ergonomic,wired,PMW3360,12000,1000
 Microsoft,Classic IntelliMouse,132,69,43,100,ergonomic,wired,PAW3808(EK),3200,1000
 Microsoft,Pro IntelliMouse,132,69,43,109,ergonomic,wired,PAW3389PRO-MS,16000,1000
 Microsoft,Sidewinder X8,125.6,78.8,42,145,ergonomic,wireless,BlueTrack,4000,500
-Microsoft,Wheel Mouse Optical,124,66.6,39.6,125,symmetrical,wired,N/A,400,125
+Microsoft,Wheel Mouse Optical,124,66.6,39.6,125,symmetrical,wired,null,400,125
 Midnight Thread,C1,118,70,37,48,symmetrical,wireless,PAW3395,32000,1000
 Mountain,Makalu 67,127,70.2,42.2,67,ergonomic,wired,PAW3370,19000,1000
+Ninjutso,Katana Superlight,125,60,39.2,60,symmetrical,wireless,PAW3370,19000,1000
+Ninjutso,Katana Ultralight,125,60.5,39.2,58,symmetrical,wired,PMW3389,16000,1000
+Ninjutso,Origin One X,121.4,58,39.9,66,ergonomic,wireless,PAW3335,3200,1000
 Ninjutso,Sora,120.8,64.5,37.3,43,symmetrical,wireless,PAW3395,26000,1000
 Ninjutso,Sora 4K,120.8,64.5,37.3,47,symmetrical,wireless,PAW3395,26000,4000
 Nitrite Labs,PROTO-XA1,114.69,57.76,34.41,26,symmetrical,wireless,Focus Pro 30K,30000,1000
 Nitrite Labs,PROTO-XA3,127.29,64.11,38.19,29,symmetrical,wireless,Focus Pro 30K,30000,1000
 Nitrite Labs,PROTO-XT1,86.59,57.77,34.47,23,symmetrical,wireless,Focus Pro 30K,30000,1000
-Nixeus,Revel,126,68,39,85,N/A,wired,PMW3360,12000,1000
+Nixeus,Revel,126,68,39,85,0,wired,PMW3360,12000,1000
 PHYLINA,S450,119,61,41,53,symmetrical,wireless,PAW3395,26000,1000
 PHYLINA,S450 4K,119,61,41,53,symmetrical,wireless,PAW3395,26000,4000
 PMM,P-CBR,75,60,30,44,symmetrical,wireless,5G Advanced 18K,18000,1000
@@ -227,6 +240,8 @@ PMM,P-CBR 8K,78,58,25,23,symmetrical,wired,PMW3360,12000,8000
 Pichau,Hive S,120,63.5,39,67,symmetrical,wired,PMW3389,16000,1000
 Pulsar,X2 Wireless,120,63,38,56,symmetrical,wireless,PAW3395,26000,1000
 Pulsar,X2 Wireless Mini,116,61,37,52,symmetrical,wireless,PAW3395,26000,1000
+Pulsar,X2A,120,63,38,57,symmetrical,wireless,PAW3395,26000,1000
+Pulsar,X2A Mini,116,61,37,55,symmetrical,wireless,PAW3395,26000,1000
 Pulsar,X2H,120.42,65,39.08,54,symmetrical,wireless,PAW3395,26000,1000
 Pulsar,X2H Mini,115.6,62.42,37.86,52,symmetrical,wireless,PAW3395,26000,1000
 Pulsar,X2V2,120,63,38,53,symmetrical,wireless,PAW3395,26000,1000
@@ -301,6 +316,7 @@ Razer,Viper V2 Pro,126.73,66,37.81,59,symmetrical,wireless,Focus Pro 30K,30000,1
 Razer,Viper V3 HyperSpeed,127.1,63.9,39.9,82,symmetrical,wireless,Focus Pro 30K,30000,1000
 Redragon,Cobra M711,127,66,40,99,ergonomic,wired,PWM3325,10000,1000
 SPC Gear,LIX Plus Wireless,126,65.7,38.5,69,symmetrical,wireless,PAW3370,19000,1000
+Santali,Mk. 1,127,65,41,69,symmetrical,wireless,PAW3395,26000,1000
 Steelseries,Aerox 3,120.55,67.03,37.98,59,symmetrical,wired,TrueMove Core,8500,1000
 Steelseries,Aerox 3 Wireless,120.55,67.03,37.98,68,symmetrical,wireless,TrueMove Air,18000,1000
 Steelseries,Aerox 5,128.8,68.2,42.1,66,ergonomic,wired,TrueMove Air,18000,1000
@@ -340,6 +356,7 @@ Vancer,Gretxa,123,63,37,68,symmetrical,wireless,PMW3370,6400,1000
 WLmouse,ANIMISM,127,65,41,69,symmetrical,wireless,PAW3395,26000,1000
 WLmouse,BEAST X,122,62,37,39,symmetrical,wireless,PAW3395,26000,4000
 Waizowl,OGM Pro,121,66,40,68,ergonomic,wireless,PAW3395,26000,1000
+Xenics,Titan GX Air Wireless,120,60,38,0,symmetrical,wireless,PAW3370,19000,1000
 Xinshuntian,G820,120.7,64.7,40.5,63,ergonomic,wireless,PAW3395,26000,1000
 Xtrfy,M4,120,68,39,69,ergonomic,wired,PMW3389,16000,1000
 Xtrfy,M4 Wireless,120,68,39,71,ergonomic,wireless,PAW3370,19000,1000
