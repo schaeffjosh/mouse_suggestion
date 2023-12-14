@@ -35,12 +35,10 @@ public interface MouseDao {
      * Get a list of mice from the datastore that are within a certain range of sizes.
      * If no mice match, return null.
      *
-     * @param length the length of the mouse
-     * @param width the width of the mouse
-     * @param height the height of the mouse
+     * @param size general size of mouse
      * @return a list of mice matching the size criteria
      */
-    List<Mouse> getMiceBySize(int length, int width, int height);
+    List<Mouse> getMiceBySize(String size);
 
     /**
      * Get all mice from a given brand.
@@ -57,13 +55,13 @@ public interface MouseDao {
      * @param id the mouse id to get from the datastore
      * @return a the updated mouse object
      */
-    Mouse updateMouse(int id);
+    Mouse updateMouse(Mouse mouse);
 
     /**
      * Delete a mouse at given id.
      *
      * @param id the mouse id to delete from the datastore
      */
-    void deleteMouse(int id);
+    int deleteMouse(int id);
 
 }
